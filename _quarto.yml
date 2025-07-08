@@ -1,0 +1,6 @@
+format:
+  html:
+    theme: cosmo          # change to any bootstrap theme you like: litera, journal, slate, etc.
+    toc: true             # add a floating table of contents
+    code-fold: show       # allow users to toggle code visibility (expanded by default)
+    code-tools: true      # show copy/download buttons on code blocks
