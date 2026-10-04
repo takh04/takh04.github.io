@@ -14,7 +14,6 @@
       <a class="wordmark" href="index.html">Tak Hur<span class="wordmark-dot">.</span></a>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="index.html" aria-current="page">Home</a>
-        <a href="publications.html">Publications</a>
         <a href="tutorials.html">Tutorials</a>
         <a href="CV.html">CV</a>
       </nav>
@@ -24,7 +23,7 @@
   <main id="main" class="wrap">
     <section class="intro" aria-labelledby="intro-title">
       <div class="intro-main">
-        <p class="eyebrow">Quantum computing · Machine learning</p>
+        <p class="eyebrow">Quantum + AI</p>
         <h1 id="intro-title">Tak Hur</h1>
         <p class="lead">I am a postdoctoral researcher at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. My research explores how machine learning can help us understand, use, and protect quantum systems.</p>
         <p>I completed my PhD in Statistics and Data Science at Yonsei University in 2026. My work spans quantum machine learning, quantum error correction, and neural quantum states, with an interest in both theory and practical algorithms.</p>
@@ -35,20 +34,22 @@
           <a href="https://www.linkedin.com/in/tak-hur-956042188/">LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <aside class="contact-card" aria-label="Current position and contact">
+      <aside class="intro-side" aria-label="Current position and contact">
+        <img class="profile-photo" src="images/tak-web.jpg" alt="Portrait of Tak Hur" onerror="this.remove()">
+        <div class="contact-card">
         <p class="card-label">Currently</p>
         <p class="card-value">Postdoctoral Researcher<br>University of Waterloo</p>
         <p class="card-label">Contact</p>
-        <a class="card-value email" href="mailto:takh0404@yonsei.ac.kr">takh0404@yonsei.ac.kr</a>
-        <p class="card-label">Previously</p>
-        <p class="card-value">Yonsei University · École Polytechnique · Imperial College London</p>
+        <a class="card-value email" href="mailto:tak.hur@uwaterloo.ca">tak.hur@uwaterloo.ca</a>
+        </div>
       </aside>
     </section>
 
     <section class="section-block" aria-labelledby="news-title">
       <div class="section-heading"><h2 id="news-title">News</h2></div>
       <ol class="news-list">
-        <li><time datetime="2026-09">Sep 2026</time><span>My preprint on <a href="https://arxiv.org/abs/2609.23334">stochastic reconfiguration as statistical filtering</a> is on arXiv.</span></li>
+        <li><time datetime="2026-09">Sep 2026</time><span>My paper on <a href="https://arxiv.org/abs/2609.23334">stochastic reconfiguration as spectral filters</a> for neural quantum states was accepted at NeurIPS 2026.</span></li>
+        <li><time datetime="2026-09">Sep 2026</time><span>Our paper on <a href="https://arxiv.org/abs/2510.22724">scalable neural decoders for real-time quantum error correction</a> was accepted at <em>npj Quantum Information</em>.</span></li>
         <li><time datetime="2026-09">Sep 2026</time><span>I started as a postdoctoral researcher at the University of Waterloo.</span></li>
         <li><time datetime="2026-09">Sep 2026</time><span>I gave a contributed talk on scalable neural decoders at ML4QT.</span></li>
         <li><time datetime="2026-08">Aug 2026</time><span>I completed my PhD in Statistics and Data Science at Yonsei University.</span></li>
@@ -56,25 +57,25 @@
       </ol>
     </section>
 
-    <section class="section-block" aria-labelledby="papers-title">
-      <div class="section-heading">
-        <h2 id="papers-title">Selected papers</h2>
-        <a class="section-more" href="publications.html">All publications <span aria-hidden="true">→</span></a>
-      </div>
+    <section class="section-block" id="publications" aria-labelledby="papers-title">
+      <div class="section-heading"><h2 id="papers-title">Publications</h2></div>
+      <p class="pub-note">* first author</p>
       <ol class="paper-list">
-        <li><span class="paper-year">2026</span><div><h3><a href="https://arxiv.org/abs/2609.23334">Stochastic Reconfiguration as Statistical Filtering for Overparameterized Neural Quantum States</a></h3><p>Tak Hur · arXiv:2609.23334</p></div></li>
-        <li><span class="paper-year">2025</span><div><h3><a href="https://journals.aps.org/prl/abstract/10.1103/y8wr-yml4">Neural Quantum Embedding via Deterministic Quantum Computation with One Qubit</a></h3><p>Hongfeng Liu, Tak Hur, Shitao Zhang, et al. · <em>Physical Review Letters</em> 135, 080603</p></div></li>
-        <li><span class="paper-year">2025</span><div><h3><a href="https://proceedings.mlr.press/v267/hur25a.html">Understanding Generalization in Quantum Machine Learning with Margins</a></h3><p>Tak Hur and Daniel K. Park · <em>ICML 2025</em> · <a href="tutorials/qmargin.html">Tutorial</a></p></div></li>
-        <li><span class="paper-year">2024</span><div><h3>Neural Quantum Embedding: Pushing the Limits of Quantum Supervised Learning</h3><p>Tak Hur, I. Araujo, and Daniel K. Park · <em>Physical Review A</em> 110, 022411 · <a href="tutorials/nqe.html">Tutorial</a></p></div></li>
+        <li><span class="paper-year">2026</span><div><h3><a href="https://arxiv.org/abs/2609.23334">Stochastic Reconfiguration as Spectral Filters for Overparameterized Neural Quantum States</a></h3><p>T. Hur* · <em>Advances in Neural Information Processing Systems (NeurIPS)</em></p></div></li>
+        <li><span class="paper-year">2026</span><div><h3><a href="https://arxiv.org/abs/2510.22724">Scalable Neural Decoders for Practical Real-Time Quantum Error Correction</a></h3><p>C. Lee, T. Hur*, and D. Park · <em>npj Quantum Information</em></p></div></li>
+        <li><span class="paper-year">2026</span><div><h3><a href="https://arxiv.org/abs/2608.15760">Machine Learning Approaches to Decoding Topological Quantum Codes</a></h3><p>C. Lee, T. Hur, J. Jae, and D. Park · arXiv:2608.15760</p></div></li>
+        <li><span class="paper-year">2025</span><div><h3><a href="https://arxiv.org/abs/2512.16177">Optimizing Quantum Data Embeddings for Ligand-Based Virtual Screening</a></h3><p>J. Choi, T. Hur, S. Jeong, et al. · arXiv:2512.16177</p></div></li>
+        <li><span class="paper-year">2025</span><div><h3><a href="https://arxiv.org/abs/2509.22355">Multi-channel Convolutional Neural Quantum Embedding</a></h3><p>Y. Kim, C. Im, T. Kim, T. Hur, and D. Park · <em>Advanced Quantum Technologies</em>, e00575</p></div></li>
+        <li><span class="paper-year">2025</span><div><h3><a href="https://journals.aps.org/prl/abstract/10.1103/y8wr-yml4">Neural Quantum Embedding via Deterministic Quantum Computation with One Qubit</a></h3><p>H. Liu, T. Hur*, S. Zhang, et al. · <em>Physical Review Letters</em> 135, 080603</p><div class="paper-actions"><a href="tutorials/nqe-dqc1.html">Tutorial →</a></div></div></li>
+        <li><span class="paper-year">2025</span><div><h3><a href="https://proceedings.mlr.press/v267/hur25a.html">Understanding Generalization in Quantum Machine Learning with Margins</a></h3><p>T. Hur* and D. Park · <em>International Conference on Machine Learning (ICML)</em></p><div class="paper-actions"><a href="tutorials/qmargin.html">Tutorial →</a></div></div></li>
+        <li><span class="paper-year">2025</span><div><h3><a href="https://arxiv.org/abs/2405.01554">Early-stage Detection of Cognitive Impairment by Hybrid Quantum-Classical Algorithm Using Resting-state Functional MRI Time-series</a></h3><p>J. Choi, T. Hur, D. Park, N. Shin, S. Lee, H. Lee, and S. Han · <em>Knowledge-Based Systems</em> 310, 112922</p></div></li>
+        <li><span class="paper-year">2024</span><div><h3><a href="https://doi.org/10.1103/PhysRevA.110.022411">Neural Quantum Embedding: Pushing the Limits of Quantum Supervised Learning</a></h3><p>T. Hur*, I. Araujo, and D. Park · <em>Physical Review A</em> 110, 022411</p><div class="paper-actions"><a href="tutorials/nqe.html">Tutorial →</a></div></div></li>
+        <li><span class="paper-year">2024</span><div><h3><a href="https://arxiv.org/abs/2607.00301">Generative Modeling of Quantum Distribution with Functional Flow Matching</a></h3><p>J. Hahm, T. Hur*, J. Lee, and D. Park · <em>Quantum Techniques in Machine Learning (QTML)</em></p></div></li>
+        <li><span class="paper-year">2022</span><div><h3><a href="https://arxiv.org/abs/2108.00661">Quantum Convolutional Neural Network for Classical Data Classification</a></h3><p>T. Hur*, L. Kim, and D. Park · <em>Quantum Machine Intelligence</em> 4, 3</p><div class="paper-actions"><a href="tutorials/qcnn.html">Tutorial →</a></div></div></li>
       </ol>
-    </section>
-
-    <section class="tutorial-callout" aria-labelledby="tutorial-callout-title">
-      <div><p class="eyebrow">Learn by doing</p><h2 id="tutorial-callout-title">Tutorials</h2><p>Walk through code and ideas behind neural quantum embedding, quantum margins, and quantum convolutional networks.</p></div>
-      <a class="button-link" href="tutorials.html">Explore tutorials <span aria-hidden="true">→</span></a>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="wrap footer-inner"><span>© 2026 Tak Hur</span><a href="mailto:takh0404@yonsei.ac.kr">Get in touch <span aria-hidden="true">↗</span></a></div></footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><span>© 2026 Tak Hur</span><a href="mailto:tak.hur@uwaterloo.ca">Get in touch <span aria-hidden="true">↗</span></a></div></footer>
 </body>
 </html>
