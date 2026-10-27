@@ -32,6 +32,7 @@ h1{margin-bottom:1rem;font-size:clamp(2.4rem,5vw,3.5rem);line-height:1.05;letter
 .email{overflow-wrap:anywhere}
 .profile-photo{display:block;width:100%;max-width:200px;aspect-ratio:1;object-fit:cover;object-position:50% 30%;margin:0 0 1.6rem;border-radius:50%;border:1px solid var(--line);background:var(--paper)}
 .pub-note{margin:-.6rem 0 1rem;font-size:.84rem;color:var(--muted)}
+.paper-subheading{margin:2.6rem 0 .8rem;padding-top:2rem;border-top:1px solid var(--line);font-size:1.35rem;letter-spacing:-.025em}
 .section-block{padding:2rem 0 3rem;border-top:1px solid var(--line)}
 .section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:1.4rem}
 .section-heading h2,.page-heading h1,.tutorial-callout h2{letter-spacing:-.045em}
